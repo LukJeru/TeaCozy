@@ -56,3 +56,65 @@ a {
   background-color: black;
   width: 100%;
 }
+
+.tea {
+  margin: 0 auto;
+  align-content: center;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tea-pictures {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#tea-pictures figure{
+  width: 25%;
+  padding: 0 10px 10px 0;
+  box-sizing: border-box;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+#location{
+  width: 1200px;
+  height: 500px;
+  background-image: url(images/img-locations-background.jpg);
+  margin: 0 auto;
+  align-content: center;
+}
+
+.locations{
+  display: inline-flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width:300px;
+  height: 300px;
+  background-color: black;
+  margin: 20px;
+}
+
+#newest{
+  border: 1px red solid;
+}
+
+#location h2 {
+  position: relative;
+  top: 25px;
+}
+
+#impressum {
+  height: 200px;
+}
+
+footer{
+  float: left;
+  margin-left: 20px;
+}
